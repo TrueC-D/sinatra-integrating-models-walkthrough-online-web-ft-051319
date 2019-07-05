@@ -7,8 +7,7 @@
 <h2>Consonants: <%=@analyzed_text.count_of_consonants%></h2>
 
 <h2>
-  <%@analyzed_text.most_used_letter.each do |key, value|%>
-<%@analyzed_text.most_used_letter.each do |key, value|%> 
-<%="Most Common Letter: #{key}, used #{value.to_s} times"%> 
-<%end%>
+  <%@analyzed_text.most_used_letter.each do |key, value|%> 
+  <%="Most Common Letter: #{key}, used #{value.to_s} times"%> 
+  <%end%>
 </h2>
