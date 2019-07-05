@@ -8,8 +8,7 @@
 
 <h2>
   <%@analyzed_text.most_used_letter.each do |key, value|%>
-  Most Common Letter:  
 <%@analyzed_text.most_used_letter.each do |key, value|%> 
-<%=" #{key}, used #{value.to_s} times"%> 
+<%="Most Common Letter: #{key}, used #{value.to_s} times"%> 
 <%end%>
 </h2>
